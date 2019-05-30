@@ -15,4 +15,8 @@ public class Card {
 	public int getValue() {
 		return value;
 	}
+	
+	public String toString() {
+		return "Suit: " + suit + " Value: " + value;
+	}
 }

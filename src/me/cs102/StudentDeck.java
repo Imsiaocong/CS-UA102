@@ -46,8 +46,8 @@ public class StudentDeck {
 		}
 		///System.out.println(cards);
 		Deck<Card> card_deck = new Deck<Card>(cards);
-		System.out.println(cards);
+		System.out.println(cards.toString());
 		card_deck.deck_shuffle(cards);
-		System.out.println(cards);
+		System.out.println(cards.toString());
 	}
 }
