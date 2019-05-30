@@ -16,6 +16,8 @@ public class StudentDeck {
 		students.add(d);
 		students.add(e);
 		Deck<NYUStudent> studentDeck = new Deck<NYUStudent>(students);
-		System.out.println(studentDeck);
+		System.out.println(students);
+		studentDeck.deck_shuffle(students);
+		System.out.println(students);
 	}
 }

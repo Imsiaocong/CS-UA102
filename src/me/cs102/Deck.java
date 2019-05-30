@@ -11,7 +11,7 @@ public class Deck <A> {
 	
 	public ArrayList<A> deck_shuffle(ArrayList<A> lst) {
 		ArrayList<A> lst_new = new ArrayList<A>();
-		Collections.shuffle(lst_new);
+		Collections.shuffle(lst);
 		return lst_new;
 	}
 	
