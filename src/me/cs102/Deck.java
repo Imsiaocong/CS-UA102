@@ -1,17 +1,16 @@
 package me.cs102;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 public class Deck <A> {
-	ArrayList<A> students;
-	public Deck(ArrayList<A> sstudent) {
-		students = sstudent;
+	ArrayList<A> lst;
+	public Deck(ArrayList<A> llsstt) {
+		lst = llsstt;
 	}
 	
-	public ArrayList<A> deck_shuffle(ArrayList<A> lst) {
+	public ArrayList<A> deck_shuffle(ArrayList<A> lst_) {
 		ArrayList<A> lst_new = new ArrayList<A>();
-		Collections.shuffle(lst);
+		Collections.shuffle(lst_);
 		return lst_new;
 	}
 	
